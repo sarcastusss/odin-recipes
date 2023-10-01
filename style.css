@@ -1,0 +1,64 @@
+*{
+    background-color: #F6E0F1;
+    color: #230B1E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: #227232;
+}
+
+.mainpage a{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #5EB937;
+}
+
+.mainpage{
+    text-align: center;   
+}
+
+.mainpage ul li{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.recipe-page {
+    text-align: center;
+    font-size: 18px;
+}
+
+.recipe-page ul li{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.recipe-page ol li{
+    text-align: center;
+    list-style-position: inside;
+}
+
+.disclaimer,
+.disclaimer a,
+.disclaimer em
+{
+    background-color: #CCF0E5;
+    font-size: smaller;
+}
+
+img{
+    box-shadow: 15px 15px 7px #CCF0E5;
+    cursor: pointer;
+}
+
+h3,
+h4,
+h4 u{
+    color: #5EB937;
+    font-weight: bold;
+}
+
+u{
+    font-weight: bold;
+}
