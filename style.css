@@ -1,64 +1,58 @@
 *{
-    background-color: #F6E0F1;
-    color: #230B1E;
+    background-color: #FBEFEA;
+    color: #0D0503;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
-h1{
-    background-color: #227232;
-}
-
-.mainpage a{
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #5EB937;
-}
-
-.mainpage{
-    text-align: center;   
-}
-
-.mainpage ul li{
-    text-align: center;
-    list-style-position: inside;
-    list-style-type: none;
-}
-
-.recipe-page {
-    text-align: center;
-    font-size: 18px;
-}
-
-.recipe-page ul li{
-    text-align: center;
-    list-style-position: inside;
-}
-
-.recipe-page ol li{
-    text-align: center;
-    list-style-position: inside;
-}
-
-.disclaimer,
-.disclaimer a,
-.disclaimer em
-{
-    background-color: #CCF0E5;
-    font-size: smaller;
+.page-layout{
+    width: 800px;
+    background-color: #2996C2;
+    margin: 20px auto;
+    padding: 20px;
 }
 
 img{
-    box-shadow: 15px 15px 7px #CCF0E5;
-    cursor: pointer;
+    width: 600px;
+    margin: 40px auto;
+    display: block;
+    border: 2px solid #FBEFEA;
+    box-shadow: 14px 14px 7px #F3D1C4;
+    
 }
 
-h3,
-h4,
-h4 u{
-    color: #5EB937;
-    font-weight: bold;
+h1,
+h2{
+    background-color: #F3D1C4;
+    padding: 17px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 28%;
+    border: 8px #0AC6F5 dotted;
 }
 
-u{
-    font-weight: bold;
+h3{
+    padding: 5px;
+    text-align: center;
+}
+
+ol,
+ul{
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#odin:hover{
+    color: #2996C2;
+    text-transform: uppercase;  
+}
+
+#odin {
+    background-color: #F3D1C4;
+}
+
+.disclaimer{
+    border: 3px solid #0AC6F5;
+    padding: 10px;
 }
